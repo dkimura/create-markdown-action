@@ -1,0 +1,12 @@
+on: [push]
+
+jobs:
+  testJob:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - uses: ./
+        with:
+          fileName: 'sample.mdx'
+          title: 'Post Title'
+          body: '# Heading1\r\n\r\nAdipisicing ex minim proident fugiat quis eiusmod minim laboris reprehenderit dolor sint sunt sunt. In laborum tempor commodo ea tempor ex tempor. Quis labore occaecat eu duis voluptate aliquip adipisicing dolor magna cillum cupidatat nisi proident Lorem.\r\n\r\nPariatur sit anim deserunt sint sit tempor. Adipisicing magna laborum voluptate exercitation deserunt. Incididunt labore adipisicing do ad sunt mollit irure laborum ut pariatur ullamco. Magna elit nostrud culpa excepteur adipisicing eu Lorem consectetur dolor ipsum aute tempor anim. Laborum consectetur fugiat sit ut velit ullamco adipisicing anim nisi.'
