@@ -1,0 +1,11 @@
+name: 'Create Markdown Action'
+inputs:
+  fileName:
+    required: true
+  title:
+    required: true
+  body:
+    required: true
+runs:
+  using: 'node12'
+  main: 'lib/index.js'
