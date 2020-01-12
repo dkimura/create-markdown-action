@@ -24,5 +24,5 @@ try {
 
   generateFile(outputPath, data)
 } catch (error) {
-  core.setFailed(error.message)
+  console.log(error)
 }
