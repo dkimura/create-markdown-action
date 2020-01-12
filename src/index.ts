@@ -1,7 +1,7 @@
-import fs from 'fs'
-import path from 'path'
+import * as fs from 'fs'
+import * as path from 'path'
 
-import core from '@actions/core'
+import * as core from '@actions/core'
 
 const generateFile = (outputPath: string, data: string) =>
   fs.writeFileSync(outputPath, data)
