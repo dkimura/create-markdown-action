@@ -2,7 +2,7 @@
   "compilerOptions": {
     /* 基本オプション */
     "incremental": true,                       /* Enable incremental compilation */
-    "target": "es2019",                        /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
+    "target": "es6",                           /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
     "module": "commonjs",                      /* モジュール コード生成を指定します: 'none'、'commonjs'、'amd'、'system'、'umd'、'es2015'、'ESNext'。 */
     // "lib": [],                              /* コンパイルに含めるライブラリ ファイルを指定します。 */
     // "allowJs": true,                        /* javascript ファイルのコンパイルを許可します。 */
@@ -63,5 +63,6 @@
     /* 試験的なオプション */
     // "experimentalDecorators": true,         /* ES7 デコレーター用の実験的なサポートを有効にします。 */
     // "emitDecoratorMetadata": true,          /* デコレーター用の型メタデータを発行するための実験的なサポートを有効にします。 */
-  }
+  },
+  "exclude": ["node_modules"]
 }
